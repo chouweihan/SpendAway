@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "659340799709",
+    "firebase_url": "https://spendaway-6aa2d.firebaseio.com",
+    "project_id": "spendaway-6aa2d",
+    "storage_bucket": "spendaway-6aa2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659340799709:android:a163d94e44ed83ce",
+        "android_client_info": {
+          "package_name": "com.weihan.chou.spendaway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659340799709-vtg4c1siua1ivt4jim3d2v02rmnlf5re.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weihan.chou.spendaway",
+            "certificate_hash": "3685c2eef08191c77474506803ca472d52963852"
+          }
+        },
+        {
+          "client_id": "659340799709-1k47qu4hks0h4iq9mgnrk67nb9b2ls5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKMG9u_8hRnVCbmeObIWPdXHKsbiRyWQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659340799709-1k47qu4hks0h4iq9mgnrk67nb9b2ls5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

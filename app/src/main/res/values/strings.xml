@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">SpendAway</string>
+    <string name="booki">Spend!</string>
+    <string name="welcome_back">Wei-Han\'s App</string>
+    <string name="loginMessage">Login to use App</string>
+    <string name="skip">Skip</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="loading">loading</string>
+    <string name="cancel">cancel</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="create_account">Create Account!</string>
+    <string name="name">Name</string>
+    <string name="confirm">Confirm</string>
+    <string name="ok">ok</string>
+    <string name="ErrorPassword">password must be the same</string>
+    <string name="ErrorEmpty">Can\'t leave empty fields</string>
+    <string name="ErrorEmail">Email invalid</string>
+    <string name="miscError">smthign went wrong idk</string>
+    <string name="passwordlengtherror">password has to be 6 or longer</string>
+
+
+    <string-array name="menuImage">
+        <item>menu1</item>
+        <item>menu2</item>
+        <item>menu3</item>
+        <item>menu4</item>
+        <item>menu5</item>
+    </string-array>
+
+    <string-array name="menuOptions">
+        <item>Add Entry</item>
+        <item>Sort List</item>
+        <item>Export to PDF</item>
+        <item>Refresh</item>
+        <item>Log out</item>
+    </string-array>
+
+
+    <string name="menuDesc0">Bought something? Let\'s keep track</string>
+    <string name="menuDesc1">Customize your list!</string>
+    <string name="menuDesc2">Save your list to pdf, or print</string>
+    <string name="menuDesc3">Something wrong? try this!</string>
+    <string name="menuDesc4">Goodbye! see your next time</string>
+
+
+    <string name="menuOptions0">Add Entry</string>
+    <string name="menuOptions1">Sort List</string>
+    <string name="menuOptions2">Export to PDF</string>
+    <string name="menuOptions3">Refresh</string>
+    <string name="menuOptions4">Log Out</string>
+    <string name="location">Where?</string>
+    <string name="price">$</string>
+    <string name="date">Date</string>
+    <string name="contentDesc">What did you buy?</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="camerabutton">cameraButton</string>
+    <string name="adddatebutton">addDateButton</string>
+    <string name="errorBlankAE">Only content section can be left blanked</string>
+    <string name="nocontent">No Content</string>
+    <string name="addentry">Add Entry</string>
+    <string name="description">description</string>
+    <string name="wer">wer</string>
+
+    <string name="totalAmount">Total: $</string>
+    <string name="totalNumber">Count:</string>
+    <string name="count">Count:</string>
+    <string name="total">Total:</string>
+    <string name="close">close</string>
+    <string name="delete">DELETE</string>
+    <string name="confirmation">Are you sure you want to delete this entry?</string>
+    <string name="confirm_edit">Confirm Edit</string>
+    <string name="min_date">Min Date</string>
+    <string name="max_date">Max Date</string>
+    <string name="date_newest_to_oldest">Date: Newest to Oldest</string>
+    <string name="date_oldest_to_newest">Date: Oldest to Newest</string>
+    <string name="price_highest_to_lowest">Price: Highest to Lowest</string>
+    <string name="price_lowest_to_highest">Price: Lowest to Highest</string>
+    <string name="add_date_constraint">Add date/price constraint? \ \ </string>
+    <string name="apply">Apply</string>
+    <string name="reset">Reset</string>
+    <string name="errorDateOptions">Error: Max date smaller than Min date</string>
+    <string name="editentry">Edit Entry</string>
+    <string name="sortingpreferences">Sorting Preference</string>
+    <string name="cantexport">You can\'t export 0 entries to PDF</string>
+    <string name="print_name_file">SpendAway_list_expense</string>
+    <string name="max_cost">max cost.</string>
+    <string name="min_cost">min cost.</string>
+    <string name="errorMaxtoMin">Error: Maximum cost has to be bigger than minimum cost</string>
+</resources>

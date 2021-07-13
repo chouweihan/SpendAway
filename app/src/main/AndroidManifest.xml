@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.weihan.chou.spendaway">
+
+    <uses-feature
+            android:name="android.hardware.camera"
+            android:required="true"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name=".SortingActivity"
+                android:label="@string/sortingpreferences"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".EditEntry"
+                android:label="@string/editentry"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".AddEntry"
+                android:label="@string/addentry"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".SignUp"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".MainPage"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

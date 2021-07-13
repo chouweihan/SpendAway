@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageID"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/starz"
+            android:layout_marginTop="15dp" android:layout_marginStart="5dp" android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"/>
+
+
+    <TextView
+            android:text="@string/description"
+            android:layout_width="220dp"
+            android:layout_toEndOf="@id/imageID"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="25dp"
+            android:textSize="16sp"
+            android:maxLines="2"
+            android:lines="2"
+            android:layout_height="wrap_content" android:id="@+id/descID" android:layout_marginStart="22dp"/>
+
+    <TextView
+            android:text="@string/location"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/descID"
+            android:textColor="@color/colorTextView"
+            android:layout_toEndOf="@id/imageID"
+            android:textSize="14sp"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginBottom="6dp"
+            android:layout_height="wrap_content" android:id="@+id/locationID"/>
+
+    <TextView
+            android:text="@string/price"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:textSize="16sp"
+            android:gravity="right"
+            android:layout_toLeftOf="@id/descID"
+            android:textColor="@color/money"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content" android:id="@+id/priceID"
+            android:layout_alignParentEnd="true"/>
+
+    <TextView
+            android:text="@string/date"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="14dp"
+            android:layout_below="@id/priceID"
+            android:textColor="@color/colorTextView"
+            android:layout_alignParentEnd="true"
+            android:layout_height="wrap_content" android:id="@+id/dateID" android:layout_marginStart="5dp"
+    />
+
+
+</RelativeLayout>

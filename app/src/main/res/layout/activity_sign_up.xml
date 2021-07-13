@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/rootView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorSplashText"
+                tools:context=".SignUp">
+    <ProgressBar
+            android:id="@+id/loadingProgressBarSU"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-6dp"
+            android:foregroundGravity="bottom"
+            android:indeterminate="true"
+            android:padding="0dp"
+            android:theme="@style/ProgressBarStyle" />
+
+    <RelativeLayout
+            android:id="@+id/afterAnimationView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="35dp">
+
+
+    <ImageView
+            android:id="@+id/starzSignUpIconView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:contentDescription="@null"
+            android:src="@drawable/starz"/>
+
+
+    <TextView
+                android:id="@+id/TitleTextView"
+                android:layout_below="@id/starzSignUpIconView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/create_account"
+                android:textColor="@color/colorBackground"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/confirmButton"
+                android:layout_below="@+id/TitleTextView"
+                android:layout_marginTop="-64dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+            <android.support.design.widget.TextInputEditText
+                    android:id="@+id/emailLoginEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorAccent"
+                    android:textSize="15sp"/>
+
+            <android.support.design.widget.TextInputEditText
+                    android:id="@+id/nameLoginEditText"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/name"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorAccent"
+                    android:textSize="15sp"/>
+
+            <android.support.design.widget.TextInputEditText
+                    android:id="@+id/PWEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:inputType="textPassword"
+                    android:hint="@string/password"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorAccent"
+                    android:textSize="15sp"/>
+
+            <android.support.design.widget.TextInputEditText
+                    android:id="@+id/confirmPWEditText"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:hint="@string/confirmPassword"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorAccent"
+                    android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <Button
+                android:id="@+id/confirmButton"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_above="@id/cancelButton"
+                android:layout_marginBottom="5dp"
+                android:onClick="confirm"
+                android:background="@drawable/button_drawable"
+                android:text="@string/confirm"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:id="@+id/cancelButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:onClick="cancel"
+                android:focusable="true"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="@string/cancel"
+                android:textColor="@color/colorTextView"
+                android:textSize="15sp"/>
+</RelativeLayout>
+
+</RelativeLayout>

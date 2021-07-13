@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorActionBar">#4885ed</color>\
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBackground">#333C46</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorSplashText">#F0F0F0</color>
+    <color name="colorProgressBar">#FFCE511C</color>
+    <color name="colorTextView">#83898E</color>
+    <color name="colorDelete">#d40000</color>
+    <color name="colorDeletePressed">#b00000</color>
+    <color name="btnPressed">#2e64bf</color>
+    <color name="menuColor0">#5fe2e1</color>
+    <color name="menuColor1">#6552c4</color>
+    <color name="menuColor2">#02babc</color>
+    <color name="menuColor3">#fd364b</color>
+    <color name="money">#85bb65</color>
+    <color name="btnrefresh">#0ca307</color>
+    <color name="btnrefreshP">#056102</color>
+</resources>
